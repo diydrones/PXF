@@ -4,7 +4,7 @@ This is the new Repository for the PXF Linux AutoPilot.
 
 this Project will alow the porting of ArduPilot to Linux, allowing us to add a multitude of other features to the Autopilot.
 
-The actual Autopilot code will still be in the ArduPilot repo.
+The actual Autopilot code will still be in the ArduPilot repo.<a href="https://github.com/diydrones/ardupilot" title="https://github.com/diydrones/ardupilot" target="https://github.com/diydrones/ardupilot"> http://github.com/diydrones/PXF</a>
 
 This Repo will house the Hardware Schematics, Datasheets, and software specific to the PXF project.
 
