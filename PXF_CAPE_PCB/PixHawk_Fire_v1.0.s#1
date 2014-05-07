@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="2" fill="10" visible="no" active="no"/>
@@ -51133,36 +51133,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun">
-<packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CREATIVE_COMMONS">
-<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="0" y="0" size="1.778" layer="95">Design by:</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CREATIVE_COMMONS">
-<gates>
-<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -52029,15 +51999,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="U$18" library="pixhawk2" deviceset="NOT-CONNECTED" device="">
 <attribute name="PARTNO" value="female 6 way"/>
 </part>
-<part name="U$6" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$5" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$7" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$8" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$9" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$10" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$13" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$14" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$15" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -52046,13 +52007,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 P8
 P9
 P6 DEBUG </text>
-<text x="109.22" y="165.1" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="2.54" y="180.34" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -52104,7 +52058,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="U$18" gate="G$1" x="22.86" y="132.08">
 <attribute name="PARTNO" x="25.4" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$6" gate="G$1" x="91.44" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -52831,13 +52784,6 @@ when can bus is unused</text>
 <wire x1="254" y1="99.06" x2="254" y2="134.62" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="254" y1="137.16" x2="254" y2="172.72" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="254" y1="137.16" x2="151.13" y2="137.16" width="0.1524" layer="94" style="dashdot"/>
-<text x="25.4" y="10.16" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="7.62" y="22.86" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -52942,7 +52888,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="U$4" gate="G$1" x="233.68" y="50.8">
 <attribute name="PARTNO" x="233.68" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$5" gate="G$1" x="7.62" y="10.16"/>
 </instances>
 <busses>
 </busses>
@@ -53578,13 +53523,6 @@ Aux ADC ports</text>
 <wire x1="6.35" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="6.35" y1="69.85" x2="121.92" y2="69.85" width="0.1524" layer="94" style="dashdot"/>
 <text x="93.98" y="38.1" size="1.778" layer="97">GPIO/UBLED</text>
-<text x="142.24" y="7.62" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="124.46" y="20.32" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0"/>
@@ -53714,7 +53652,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="J314" gate="G$1" x="116.84" y="93.98">
 <attribute name="PARTNO" x="116.84" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$7" gate="G$1" x="124.46" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -54357,13 +54294,6 @@ TO PIN 8 (VDD_3V3_SENSORS)</text>
 <wire x1="165.1" y1="147.32" x2="165.1" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="172.72" y1="132.08" x2="172.72" y2="127" width="0.1524" layer="97" style="shortdash"/>
-<text x="165.1" y="2.54" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="147.32" y="15.24" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -54476,7 +54406,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <attribute name="BOM" x="38.1" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND82" gate="1" x="78.74" y="10.16"/>
-<instance part="U$8" gate="G$1" x="147.32" y="2.54"/>
 </instances>
 <busses>
 </busses>
@@ -55104,13 +55033,6 @@ Sensor Power Rail</text>
 <wire x1="254" y1="172.72" x2="254" y2="119.38" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="172.72" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="172.72" y1="119.38" x2="254" y2="119.38" width="0.1524" layer="94" style="dashdot"/>
-<text x="177.8" y="5.08" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="160.02" y="17.78" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -55209,7 +55131,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="R503" gate="G$1" x="109.22" y="33.02" rot="R180">
 <attribute name="PARTNO" x="109.22" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U$9" gate="G$1" x="160.02" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -55587,13 +55508,6 @@ low to minimise power dissipation.</text>
 bright yellow or orange colour
 remove before Flight
 For Developers ONLY</text>
-<text x="167.64" y="152.4" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="149.86" y="165.1" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -55708,7 +55622,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="U$12" gate="G$1" x="228.6" y="55.88">
 <attribute name="PARTNO" x="228.6" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$10" gate="G$1" x="149.86" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -56103,13 +56016,6 @@ Spectrum</text>
 <text x="7.62" y="58.42" size="1.778" layer="97">Servo outputs</text>
 <text x="109.22" y="33.02" size="1.778" layer="97">Spektrum/DSM</text>
 <text x="183.515" y="170.815" size="1.778" layer="91">STILL NEEDS WORK&gt;&gt;&gt;</text>
-<text x="167.64" y="7.62" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="149.86" y="20.32" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="GND64" gate="1" x="43.18" y="132.08" rot="MR0"/>
@@ -56245,7 +56151,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="GND62" gate="1" x="25.4" y="66.04"/>
 <instance part="GND70" gate="1" x="22.86" y="10.16"/>
 <instance part="GND73" gate="1" x="33.02" y="10.16"/>
-<instance part="U$13" gate="G$1" x="149.86" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -57023,13 +56928,6 @@ switches off at higher input voltages.</text>
 <text x="71.12" y="86.36" size="1.27" layer="97" font="vector">SOLDER WIRE FROM VDD_5V_BRICK TO VDD_5V THRU VIAS 
 AT 147.7445MM, 39.4275MM (VDD_5V_BRICK) 
 AND 145.158MM, 40.434MM (VDD_5V).</text>
-<text x="137.16" y="27.94" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="119.38" y="40.64" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FRAME10" gate="G$1" x="0" y="0"/>
@@ -57119,7 +57017,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <attribute name="PARTNO" x="76.2" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND54" gate="1" x="76.2" y="96.52"/>
-<instance part="U$14" gate="G$1" x="119.38" y="27.94"/>
 </instances>
 <busses>
 </busses>
@@ -57459,13 +57356,6 @@ vision alignment.</text>
 <text x="12.7" y="142.24" size="1.4224" layer="97">Parts:
 Resistors: 0402 / 1% unless specified otherwise
 Capacitors: 0402 to 1206, ceramic, voltage rating: 10V unless specified</text>
-<text x="142.24" y="30.48" size="1.778" layer="97">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="124.46" y="43.18" size="1.016" layer="97">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <instances>
 <instance part="FIDUCIALS" gate="G$1" x="0" y="0"/>
@@ -57565,7 +57455,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <attribute name="PARTNO" x="231.14" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="231.14" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$15" gate="G$1" x="124.46" y="30.48"/>
 </instances>
 <busses>
 </busses>

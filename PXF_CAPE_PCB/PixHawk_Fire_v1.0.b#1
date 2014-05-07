@@ -315,21 +315,6 @@ Aux</text>
 <wire x1="84.836" y1="8.382" x2="85.344" y2="8.382" width="0.15" layer="21"/>
 <wire x1="87.63" y1="8.636" x2="87.63" y2="8.128" width="0.15" layer="21"/>
 <wire x1="87.376" y1="8.382" x2="87.884" y2="8.382" width="0.15" layer="21"/>
-<text x="123.952" y="-80.01" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.952" y="-71.374" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.952" y="-62.738" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.19" y="-54.356" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.444" y="-45.974" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.444" y="-36.83" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="122.682" y="-28.448" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="122.936" y="-20.066" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.19" y="-11.176" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="71.882" y="63.246" size="1.778" layer="21">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <libraries>
 <library name="pixhawk2">
@@ -24659,15 +24644,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 </package>
 </packages>
 </library>
-<library name="SparkFun">
-<packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25609,15 +25585,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <attribute name="PARTNO" value="*" x="123.952" y="33.528" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BOM" value="EXCLUDE" x="123.952" y="33.528" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$6" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-10.922"/>
-<element name="U$5" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-19.558"/>
-<element name="U$7" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-28.194"/>
-<element name="U$8" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-36.83"/>
-<element name="U$9" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-45.466"/>
-<element name="U$10" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-54.102"/>
-<element name="U$13" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-62.738"/>
-<element name="U$14" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-71.374"/>
-<element name="U$15" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-80.01"/>
 </elements>
 <signals>
 <signal name="ALARM">
