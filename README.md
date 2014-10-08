@@ -1,4 +1,4 @@
-PXF
+PXF ( current boards are 1.4)
 ===
 This is the new Repository for the PXF Linux AutoPilot. 
 
