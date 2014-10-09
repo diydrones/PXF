@@ -25321,6 +25321,9 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <element name="C415" library="pixhawk2" package="0402-CAP" value="u1F" x="122.1676" y="24.9208" rot="MR180">
 <attribute name="PARTNO" value="CC0402ZRY5V7BB104" x="122.1676" y="24.9208" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
+<element name="C411" library="pixhawk2" package="0603-CAP" value="2200p" x="118.9984" y="22.7924" rot="MR270">
+<attribute name="PARTNO" value="C0603C222J5RACTU" x="118.9984" y="22.7924" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 <element name="C402" library="pixhawk2" package="0603-CAP" value="4.7u" x="115.3794125" y="28.221590625" rot="MR180">
 <attribute name="PARTNO" value="C1608X7S1A475K080AC" x="115.3794125" y="28.221590625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -25532,9 +25535,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <element name="R7" library="pixhawk2" package="0402-RES" value="10K/0.1%" x="139.7" y="45.085" rot="MR180">
 <attribute name="PARTNO" value="ERA-2AEB103X" x="139.7" y="45.085" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C411" library="pixhawk2" package="0603-CAP" value="2u2" x="119.253" y="23.368" rot="MR270">
-<attribute name="PARTNO" value="C1608X6S1C225K080AC" x="119.253" y="23.368" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="ALARM">
@@ -25706,6 +25706,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <contactref element="C415" pad="P$2"/>
 <contactref element="U405" pad="18"/>
 <contactref element="U405" pad="11"/>
+<contactref element="C411" pad="P$2"/>
 <contactref element="U405" pad="20"/>
 <contactref element="U403" pad="11"/>
 <contactref element="R102" pad="P$1"/>
@@ -25838,6 +25839,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="124.6792" y1="28.5336" x2="124.7532" y2="28.5282" width="0.3048" layer="16"/>
 <wire x1="124.7532" y1="28.5282" x2="124.7532" y2="30.041" width="0.3048" layer="16"/>
 <via x="124.7532" y="30.041" extent="1-16" drill="0.2"/>
+<wire x1="118.9984" y1="22.0424" x2="120.4876" y2="22.0124" width="0.3048" layer="16"/>
 <wire x1="120.4876" y1="22.0124" x2="120.48" y2="22.03" width="0.3048" layer="16"/>
 <via x="120.48" y="22.03" extent="1-16" drill="0.2"/>
 <via x="121.84" y="26.0302" extent="1-16" drill="0.2"/>
@@ -25911,9 +25913,9 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="139.2348" y1="29.3152" x2="139.2348" y2="29.28" width="0.254" layer="16"/>
 <wire x1="130.1848" y1="22.5716" x2="130.22" y2="22.5532" width="0.254" layer="16"/>
 <wire x1="130.22" y1="22.5532" x2="130.21" y2="23.37" width="0.254" layer="16"/>
-<wire x1="118.5738" y1="25.6556" x2="118.5738" y2="23.4108" width="0.1524" layer="16"/>
-<wire x1="118.5738" y1="23.4108" x2="118.627" y2="23.337" width="0.1524" layer="16"/>
-<via x="118.627" y="23.337" extent="1-16" drill="0.2"/>
+<wire x1="118.5738" y1="25.6556" x2="118.5738" y2="24.5538" width="0.1524" layer="16"/>
+<wire x1="118.5738" y1="24.5538" x2="118.5" y2="24.48" width="0.1524" layer="16"/>
+<via x="118.5" y="24.48" extent="1-16" drill="0.2"/>
 <wire x1="90.2134" y1="5.8266" x2="90.63" y2="5.41" width="0.254" layer="16"/>
 <via x="90.63" y="5.41" extent="1-16" drill="0.2"/>
 <wire x1="85.7366" y1="7.3904" x2="85.7366" y2="7.7904" width="0.254" layer="16"/>
@@ -26454,11 +26456,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <via x="137.922" y="13.335" extent="1-16" drill="0.6"/>
 <via x="144.399" y="7.874" extent="1-16" drill="0.6"/>
 <via x="97.155" y="5.588" extent="1-16" drill="0.6"/>
-<contactref element="C411" pad="P$2"/>
-<wire x1="119.253" y1="22.618" x2="120.003" y2="22.618" width="0.15" layer="16"/>
-<wire x1="120.003" y1="22.618" x2="120.142" y2="22.479" width="0.15" layer="16"/>
-<wire x1="120.142" y1="22.479" x2="120.333" y2="22.479" width="0.15" layer="16"/>
-<wire x1="120.333" y1="22.479" x2="120.4364" y2="22.5824" width="0.15" layer="16"/>
 </signal>
 <signal name="BBB-VDD_3V3" class="1">
 <contactref element="VDD_3V901" pad="P$1"/>
@@ -29625,13 +29622,9 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="117.24" y1="24.492" x2="117.24" y2="23.16" width="0.1524" layer="14"/>
 <wire x1="117.24" y1="23.16" x2="117.28" y2="23.12" width="0.1524" layer="14"/>
 <via x="117.28" y="23.12" extent="1-16" drill="0.2"/>
-<wire x1="117.28" y1="23.12" x2="117.254" y2="23.12" width="0.1524" layer="3"/>
-<wire x1="117.254" y1="23.12" x2="117.254" y2="23.081" width="0.1524" layer="3"/>
-<wire x1="117.254" y1="23.081" x2="117.729" y2="22.606" width="0.1524" layer="3"/>
-<wire x1="117.729" y1="22.606" x2="123.063" y2="22.606" width="0.1524" layer="3"/>
-<wire x1="123.063" y1="22.606" x2="123.19" y2="22.479" width="0.1524" layer="3"/>
-<wire x1="123.19" y1="22.479" x2="123.25" y2="22.458" width="0.1524" layer="3"/>
-<wire x1="123.25" y1="22.458" x2="123.87" y2="21.92" width="0.1524" layer="3"/>
+<wire x1="117.28" y1="23.12" x2="122.08" y2="23.12" width="0.1524" layer="3"/>
+<wire x1="122.08" y1="23.12" x2="123.25" y2="21.95" width="0.1524" layer="3"/>
+<wire x1="123.25" y1="21.95" x2="123.87" y2="21.92" width="0.1524" layer="3"/>
 <via x="123.87" y="21.92" extent="1-16" drill="0.2"/>
 <wire x1="123.87" y1="21.92" x2="123.87" y2="16.41" width="0.1524" layer="14"/>
 <wire x1="123.87" y1="16.41" x2="123.99" y2="16.29" width="0.1524" layer="14"/>
@@ -29900,11 +29893,10 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="113.6832625" y1="14.2229625" x2="113.6887" y2="14.217525" width="0.15" layer="14"/>
 </signal>
 <signal name="N$15">
+<contactref element="C411" pad="P$1"/>
 <contactref element="U405" pad="10"/>
 <wire x1="118.9738" y1="25.6556" x2="118.9876" y2="25.6556" width="0.1524" layer="16"/>
-<contactref element="C411" pad="P$1"/>
-<wire x1="118.9738" y1="25.6556" x2="118.9738" y2="24.3972" width="0.15" layer="16"/>
-<wire x1="118.9738" y1="24.3972" x2="119.253" y2="24.118" width="0.15" layer="16"/>
+<wire x1="118.9876" y1="25.6556" x2="118.9984" y2="23.5424" width="0.1524" layer="16"/>
 </signal>
 <signal name="MPU_6500_DRDY">
 <contactref element="U405" pad="12"/>
@@ -31278,14 +31270,14 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <approved hash="19,1,3e06b020b25e3c78"/>
 <approved hash="19,1,74eaa43cb13c7992"/>
 <approved hash="19,1,7d643342300c7e2a"/>
-<approved hash="19,1,3cf05ed650143232"/>
 <approved hash="19,1,a91dfc97db2f62b8"/>
-<approved hash="19,1,fd83bb41c3620046"/>
+<approved hash="19,1,3cf05ed650143232"/>
 <approved hash="19,1,09c4636b3c1e4b55"/>
+<approved hash="19,1,fd83bb41c3620046"/>
 <approved hash="19,1,955910a713e89616"/>
 <approved hash="19,1,3dc3381e6dabbd11"/>
-<approved hash="19,1,d50a478069a40330"/>
 <approved hash="19,1,398fd71a86a6c824"/>
+<approved hash="19,1,d50a478069a40330"/>
 <approved hash="19,1,7cfe7ad8741e7238"/>
 <approved hash="19,1,bbec116363dfd148"/>
 <approved hash="19,1,625c33d628eebd79"/>
