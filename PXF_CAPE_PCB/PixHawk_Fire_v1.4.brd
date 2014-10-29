@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -315,21 +315,6 @@ Aux</text>
 <wire x1="84.836" y1="8.382" x2="85.344" y2="8.382" width="0.15" layer="21"/>
 <wire x1="87.63" y1="8.636" x2="87.63" y2="8.128" width="0.15" layer="21"/>
 <wire x1="87.376" y1="8.382" x2="87.884" y2="8.382" width="0.15" layer="21"/>
-<text x="123.952" y="-80.01" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.952" y="-71.374" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.952" y="-62.738" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.19" y="-54.356" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.444" y="-45.974" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.444" y="-36.83" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="122.682" y="-28.448" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="122.936" y="-20.066" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="123.19" y="-11.176" size="1.778" layer="21">Philip Rowse, 3D Robotics, Lorenz Meiers, and the PX4 team</text>
-<text x="71.882" y="63.246" size="1.778" layer="21">Direct cloning is NOT desired, but if you do....
-please follow the spirit of OSHW, do not try and hide the fact that they are clones, do not expect that your cloned boards will interoperate with software designed for the original boards.
-
-for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
-
-if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
 </plain>
 <libraries>
 <library name="pixhawk2">
@@ -24595,15 +24580,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 </package>
 </packages>
 </library>
-<library name="SparkFun">
-<packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25493,15 +25469,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <attribute name="PARTNO" value="*" x="123.952" y="33.528" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BOM" value="EXCLUDE" x="123.952" y="33.528" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$6" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-10.922"/>
-<element name="U$5" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-19.558"/>
-<element name="U$7" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-28.194"/>
-<element name="U$8" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-36.83"/>
-<element name="U$9" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-45.466"/>
-<element name="U$10" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-54.102"/>
-<element name="U$13" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-62.738"/>
-<element name="U$14" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-71.374"/>
-<element name="U$15" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="92.202" y="-80.01"/>
 <element name="C416" library="pixhawk2" package="0603-CAP" value="0u01" x="126.619" y="31.115" rot="MR180">
 <attribute name="PARTNO" value="06033C103JAT2A" x="126.619" y="30.861" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -26459,6 +26426,20 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="120.003" y1="22.618" x2="120.142" y2="22.479" width="0.15" layer="16"/>
 <wire x1="120.142" y1="22.479" x2="120.333" y2="22.479" width="0.15" layer="16"/>
 <wire x1="120.333" y1="22.479" x2="120.4364" y2="22.5824" width="0.15" layer="16"/>
+<contactref element="U$3" pad="6"/>
+<wire x1="81.7094" y1="22.973" x2="82.155" y2="22.973" width="0.254" layer="16"/>
+<wire x1="82.155" y1="22.973" x2="82.296" y2="23.114" width="0.4064" layer="16"/>
+<wire x1="82.296" y1="23.114" x2="82.3936" y2="23.114" width="0.4064" layer="16"/>
+<wire x1="82.3936" y1="23.114" x2="82.7214" y2="23.4418" width="0.4064" layer="16"/>
+<wire x1="108.635" y1="6.0215" x2="108.585" y2="6.0215" width="0.4064" layer="1"/>
+<wire x1="108.585" y1="6.0215" x2="108.585" y2="9.144" width="0.4064" layer="1"/>
+<wire x1="108.585" y1="9.144" x2="108.458" y2="9.144" width="0.4064" layer="1"/>
+<wire x1="108.458" y1="9.144" x2="107.95" y2="9.652" width="0.4064" layer="1"/>
+<wire x1="107.95" y1="9.652" x2="106.426" y2="9.652" width="0.4064" layer="1"/>
+<wire x1="106.426" y1="9.652" x2="106.172" y2="9.398" width="0.4064" layer="1"/>
+<wire x1="106.172" y1="9.398" x2="106.172" y2="8.128" width="0.4064" layer="1"/>
+<wire x1="106.0995" y1="8.636" x2="106.0995" y2="8.2005" width="0.4064" layer="1"/>
+<wire x1="106.0995" y1="8.2005" x2="106.172" y2="8.128" width="0.4064" layer="1"/>
 </signal>
 <signal name="BBB-VDD_3V3" class="1">
 <contactref element="VDD_3V901" pad="P$1"/>
@@ -31278,20 +31259,20 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <approved hash="19,1,3e06b020b25e3c78"/>
 <approved hash="19,1,74eaa43cb13c7992"/>
 <approved hash="19,1,7d643342300c7e2a"/>
-<approved hash="19,1,3cf05ed650143232"/>
 <approved hash="19,1,a91dfc97db2f62b8"/>
-<approved hash="19,1,fd83bb41c3620046"/>
+<approved hash="19,1,3cf05ed650143232"/>
 <approved hash="19,1,09c4636b3c1e4b55"/>
+<approved hash="19,1,fd83bb41c3620046"/>
 <approved hash="19,1,955910a713e89616"/>
 <approved hash="19,1,3dc3381e6dabbd11"/>
 <approved hash="19,1,d50a478069a40330"/>
 <approved hash="19,1,398fd71a86a6c824"/>
-<approved hash="19,1,7cfe7ad8741e7238"/>
 <approved hash="19,1,bbec116363dfd148"/>
+<approved hash="19,1,7cfe7ad8741e7238"/>
 <approved hash="19,1,625c33d628eebd79"/>
 <approved hash="19,1,2e5c547a525c287a"/>
-<approved hash="19,1,2e58507e565c287a"/>
 <approved hash="19,1,43cbd143cf7e9de9"/>
+<approved hash="19,1,2e58507e565c287a"/>
 <approved hash="19,1,c8cbaeedac2cca0a"/>
 <approved hash="19,1,a67344da97249d52"/>
 <approved hash="19,1,c5aeb24a94480484"/>
@@ -31309,10 +31290,10 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <approved hash="19,1,a63e9bb08328a692"/>
 <approved hash="19,1,43d625f024de42f8"/>
 <approved hash="19,1,a942eb64f248aa86"/>
-<approved hash="19,1,e3de7be47a0ae230"/>
-<approved hash="19,1,e028facfe529e7fe"/>
 <approved hash="19,1,e69a7ea07b5ee364"/>
 <approved hash="19,1,e35cfb83e67de0d2"/>
+<approved hash="19,1,e3de7be47a0ae230"/>
+<approved hash="19,1,e028facfe529e7fe"/>
 </errors>
 </board>
 </drawing>

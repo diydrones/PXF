@@ -51402,9 +51402,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="GND9" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND16" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND20" library="pixhawk2" deviceset="GND" device=""/>
-<part name="C411" library="pixhawk2" deviceset="CAP" device="0603" value="2200p">
-<attribute name="PARTNO" value="C0603C222J5RACTU"/>
-</part>
 <part name="GND25" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND41" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND15" library="pixhawk2" deviceset="GND" device=""/>
@@ -51641,6 +51638,9 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 </part>
 <part name="R7" library="pixhawk2" deviceset="RESISTOR" device="0402-RES" value="10K/0.1%">
 <attribute name="PARTNO" value="ERA-2AEB103X"/>
+</part>
+<part name="C411" library="pixhawk2" deviceset="CAP" device="0603" value="2u2">
+<attribute name="PARTNO" value="C1608X6S1C225K080AC"/>
 </part>
 </parts>
 <sheets>
@@ -54027,9 +54027,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="GND9" gate="1" x="236.22" y="119.38"/>
 <instance part="GND16" gate="1" x="220.98" y="147.32" rot="R90"/>
 <instance part="GND20" gate="1" x="208.28" y="99.06"/>
-<instance part="C411" gate="G$1" x="195.58" y="106.68">
-<attribute name="PARTNO" x="195.58" y="106.68" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND25" gate="1" x="195.58" y="99.06"/>
 <instance part="GND41" gate="1" x="198.12" y="167.64" rot="R180"/>
 <instance part="GND15" gate="1" x="162.56" y="38.1"/>
@@ -54061,6 +54058,9 @@ if you make a clone or derivative of this board, you must release your exact sch
 </instance>
 <instance part="C409" gate="G$1" x="152.4" y="48.26">
 <attribute name="PARTNO" x="152.4" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C411" gate="G$1" x="195.58" y="106.68">
+<attribute name="PARTNO" x="195.58" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -54160,9 +54160,9 @@ if you make a clone or derivative of this board, you must release your exact sch
 <wire x1="208.28" y1="111.76" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C411" gate="G$1" pin="2"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="195.58" y1="104.14" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C411" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U405" gate="G$1" pin="RESV@1"/>
@@ -54531,9 +54531,9 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="C411" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="111.76" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U405" gate="G$1" pin="REGOUT"/>
+<pinref part="C411" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MPU_6500_DRDY" class="0">
