@@ -1,0 +1,12 @@
+Hi All, I have just pushed Hardware version 1.5 to Git (diydrones/PXF)
+
+This fix addresses the UART issues, removes the i2c RGB led, adds power for the UBLEDs, Renames the UARTS as ttyO0, ttyO4, and ttyO5
+
+Removes the Spektrum from UART and connect it dirrectly to PPM
+
+PPM/S.Bus Out is now connected to PRU0_R30[15] could be used for pass through.
+
+S.Bus inverter is no longer used, and has been removed.
+
+ttyO0 is connected directly to the Debug header, there is nothing in the way of this other than a series resistor.
+[6:57:50 PM] Philip Rowse: The old serial 3 plug has been removed, as it is not functional
