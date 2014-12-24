@@ -1,5 +1,7 @@
 PXF ( current boards are 1.4)
 ===
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/diydrones/PXF?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is the new Repository for the PXF Linux AutoPilot. 
 
 this Project will alow the porting of ArduPilot to Linux, allowing us to add a multitude of other features to the Autopilot.
